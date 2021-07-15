@@ -1,4 +1,4 @@
-# Teste Promobit
+# Sandbox Terraform
 
 **Pré-requisitos**
 
