@@ -11,7 +11,7 @@ resource "aws_instance" "dev" {
     }
 
     provisioner "local-exec" {
-      command = "echo '[testepromobit]' > ./ansible/hosts"
+      command = "echo '[sandboxterraform]' > ./ansible/hosts"
     }
     
     vpc_security_group_ids = [

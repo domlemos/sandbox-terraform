@@ -67,8 +67,8 @@
       state: present
       update_cache: yes  
   - git:
-      repo: https://github.com/Promobit/devops-apps.git
-      dest: /home/ubuntu/promobit
+      repo: https://github.com/yourapplicationhere
+      dest: /home/ubuntu/yourapplicationhere
       refspec: '+refs/pull/*:refs/heads/*'    
   - name: Install make
     remote_user: ubuntu
@@ -79,9 +79,9 @@
   - name: executar o make
     shell: make build
     args:
-      chdir: /home/ubuntu/promobit
+      chdir: /home/ubuntu/yourapplicationhere
   - name: executar o make
     shell: docker-compose up -d
     args:
-      chdir: /home/ubuntu/promobit    
+      chdir: /home/ubuntu/yourapplicationhere    
         

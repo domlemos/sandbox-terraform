@@ -43,7 +43,3 @@ No término do  do processo um output de nome **op1** irá exibir o host criado 
 - O Ansible foi a ferramenta escolhida para a instalação do ambiente no servidor deploy das aplicações.
 - Após a criação da Infra Estrutura o Terraform faz uma chamada de comando para que o Ansible faça a gestão de configuração.
 - O Terraform informa o host para o arquivo de configuração do Ansible possibilitando a gestão de configuração.
-
-**Tarefas incompletas**
-
-Não consegui finalizar o autoScaling até onde foi possível ser feito está no arquivo main_with_load_balance.tf______
