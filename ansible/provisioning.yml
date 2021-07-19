@@ -67,8 +67,8 @@
       state: present
       update_cache: yes  
   - git:
-      repo: https://github.com/lemosweb/poc-sns
-      dest: /home/ubuntu/poc-sns
+      repo: https://github.com/Promobit/devops-apps.git
+      dest: /home/ubuntu/promobit
       refspec: '+refs/pull/*:refs/heads/*'    
   - name: Install make
     remote_user: ubuntu
@@ -79,9 +79,10 @@
   - name: executar o make
     shell: make build
     args:
-      chdir: /home/ubuntu/poc-sns
+      chdir: /home/ubuntu/promobit
   - name: executar o make
     shell: docker-compose up -d
     args:
-      chdir: /home/ubuntu/poc-sns
+      chdir: /home/ubuntu/promobit    
+        
         
