@@ -1,4 +1,4 @@
-# Teste Promobit
+# Sandbox Terraform
 
 **Pré-requisitos**
 
@@ -34,8 +34,6 @@ make build
 
 No término do  do processo um output de nome **op1** irá exibir o host criado pelo script
 
-- A aplicação php poderá ser testada utilizando o {host}/php_app e {host}/php_app/ping
-- A aplicação python poderá ser testada utilizando o {host}/python_app e {host}/python_app/ping
 
 **INFORMAÇÕES SOBRE O PROJETO**
 
